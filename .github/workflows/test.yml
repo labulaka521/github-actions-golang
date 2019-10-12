@@ -16,4 +16,5 @@ jobs:
       uses: actions/checkout@v1
     - name: Test
       run: go test ./...ss
-      run: sudo apt install upx
+    - name: upx
+      run: apt install upx
