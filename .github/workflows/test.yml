@@ -15,4 +15,5 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v1
     - name: Test
-      run: go test ./...
+      run: go test ./...ss
+      run: sudo apt install upx
